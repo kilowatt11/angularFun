@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myButton">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-</head>
-<body>
     
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    
+</head>
+<body ng-controller="buttonController">
+    
+   
+    
+    <button type="button" class="btn btn-primary" ng-click="click()">Click to Count</button>
+    <br/>
+    <h1>{{clicks}}</h1>
+    
+    <button type="button" class ="btn btn-primary" ng-click="leapYear()">Leap Year</button>
+    
+    <h1>{{}}
+    
+    
+    
+    
+    
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="app/app.js"></script>
+   
+    <script src="app/controller.js"></script>
 </body>
 </html>
